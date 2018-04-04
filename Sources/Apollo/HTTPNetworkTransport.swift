@@ -75,7 +75,7 @@ public class HTTPNetworkTransport: NetworkTransport {
 
     let body = requestBody(for: operation)
     request.httpBody = try! serializationFormat.serialize(value: body)
-    
+
     let task = session.dataTask(with: request) { (data: Data?, response: URLResponse?, error: Error?) in
       if error != nil {
         completionHandler(nil, error)
