@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D206A6320A0692E00052CC9 /* WebSocketTransport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D206A5F20A0692E00052CC9 /* WebSocketTransport.swift */; };
+		1D206A6420A0692E00052CC9 /* SplitNetworkTransport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D206A6220A0692E00052CC9 /* SplitNetworkTransport.swift */; };
 		54DDB0921EA045870009DD99 /* InMemoryNormalizedCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54DDB0911EA045870009DD99 /* InMemoryNormalizedCache.swift */; };
 		9F0CA4451EE7F9E90032DD39 /* ApolloTestSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F8A95781EC0FC1200304A2D /* ApolloTestSupport.framework */; };
 		9F0CA4461EE7F9E90032DD39 /* ApolloTestSupport.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9F8A95781EC0FC1200304A2D /* ApolloTestSupport.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -227,6 +229,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1D206A5F20A0692E00052CC9 /* WebSocketTransport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebSocketTransport.swift; sourceTree = "<group>"; };
+		1D206A6220A0692E00052CC9 /* SplitNetworkTransport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplitNetworkTransport.swift; sourceTree = "<group>"; };
 		54DDB0911EA045870009DD99 /* InMemoryNormalizedCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InMemoryNormalizedCache.swift; sourceTree = "<group>"; };
 		9F10A51D1EC1BA0F0045E62B /* MockNetworkTransport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockNetworkTransport.swift; sourceTree = "<group>"; };
 		9F19D8431EED568200C57247 /* ResultOrPromise.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultOrPromise.swift; sourceTree = "<group>"; };
@@ -526,6 +530,8 @@
 		9FC750461D2A532C00458D91 /* Apollo */ = {
 			isa = PBXGroup;
 			children = (
+				1D206A6220A0692E00052CC9 /* SplitNetworkTransport.swift */,
+				1D206A5F20A0692E00052CC9 /* WebSocketTransport.swift */,
 				9FC750621D2A59F600458D91 /* ApolloClient.swift */,
 				9FC750601D2A59C300458D91 /* GraphQLOperation.swift */,
 				9FC9A9BE1E2C27FB0023C4D5 /* GraphQLResult.swift */,
@@ -1073,6 +1079,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9FF33D811E48B98200F608A4 /* HTTPNetworkTransport.swift in Sources */,
+				1D206A6420A0692E00052CC9 /* SplitNetworkTransport.swift in Sources */,
 				9FCE2CEE1E6BE2D900E34457 /* NormalizedCache.swift in Sources */,
 				9FADC84A1E6B0B2300C677E6 /* Locking.swift in Sources */,
 				9F295E381E277B2A00A24949 /* GraphQLResultNormalizer.swift in Sources */,
@@ -1094,6 +1101,7 @@
 				9F578D901D8D2CB300C0EA36 /* Utilities.swift in Sources */,
 				9FC9A9BD1E2C271C0023C4D5 /* RecordSet.swift in Sources */,
 				9FEC15B91E6965E300D461B4 /* Result.swift in Sources */,
+				1D206A6320A0692E00052CC9 /* WebSocketTransport.swift in Sources */,
 				9FADC84F1E6B865E00C677E6 /* DataLoader.swift in Sources */,
 				9FF90A611DDDEB100034C3B6 /* GraphQLResponse.swift in Sources */,
 				9F27D4641D40379500715680 /* JSONStandardTypeConversions.swift in Sources */,

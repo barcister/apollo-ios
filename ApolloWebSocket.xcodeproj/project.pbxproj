@@ -60,8 +60,8 @@
 /* Begin PBXFileReference section */
 		720160CB206AB3D30052B2EE /* ApolloWebSocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ApolloWebSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		720160D4206AB3D30052B2EE /* ApolloWebSocketTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ApolloWebSocketTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		7270746A206D111A00C131F6 /* SplitNetworkTransport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplitNetworkTransport.swift; sourceTree = "<group>"; };
-		7270746B206D111A00C131F6 /* WebSocketTransport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebSocketTransport.swift; sourceTree = "<group>"; };
+		7270746A206D111A00C131F6 /* SplitNetworkTransport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SplitNetworkTransport.swift; path = ../Apollo/SplitNetworkTransport.swift; sourceTree = "<group>"; };
+		7270746B206D111A00C131F6 /* WebSocketTransport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WebSocketTransport.swift; path = ../Apollo/WebSocketTransport.swift; sourceTree = "<group>"; };
 		7270746C206D111A00C131F6 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		72707471206D112900C131F6 /* MockWebSocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockWebSocket.swift; sourceTree = "<group>"; };
 		72707472206D112900C131F6 /* StarWarsSubscriptionTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StarWarsSubscriptionTests.swift; sourceTree = "<group>"; };
